@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Header Component snapshots header component 1`] = `
+<div>
+  <div
+    class="header"
+  >
+    <a
+      href="/"
+    >
+      <img
+        alt="Demo Next.js Logo"
+        aria-label="Demo Next.js Logo"
+        data-nimg="1"
+        decoding="async"
+        height="220"
+        loading="eager"
+        src="/logo.svg"
+        style="color: transparent; width: 100%; height: auto;"
+        width="620"
+      />
+    </a>
+  </div>
+</div>
+`;

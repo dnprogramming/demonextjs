@@ -1,0 +1,25 @@
+#demoTablesHeader {
+    padding: 0 1.25rem;
+    text-align: center;
+    font-weight: 600;
+    color: var(--foreground);
+    margin: 0 auto;
+    max-width: 100dvw;
+  }
+
+  #demoTablesHeader h2 {
+    font-size: var(--h2-font-size);
+    line-height: 56px;
+    font-weight: 600;
+  }
+
+  @media screen and (width <= 768px) {
+    #demoTablesHeader {
+      padding: 0;
+      text-align: center;
+      font-weight: 600;
+      color: var(--foreground);
+      margin: 0 auto;
+      max-width: 100dvw;
+    }
+  }

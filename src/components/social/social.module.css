@@ -1,0 +1,12 @@
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+    background-color: var(--color-background);
+    box-shadow: var(--shadow);
+    border-radius: 0.5rem;
+    width: 100dvw;
+    height: 5dvh;
+}

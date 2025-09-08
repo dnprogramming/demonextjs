@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Social Component renders social component unchanged 1`] = `
+<div>
+  <div
+    class="social"
+  >
+    <a
+      href="https://www.facebook.com"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      <img
+        alt="Facebook"
+        data-nimg="1"
+        decoding="async"
+        height="48"
+        loading="lazy"
+        src="/_next/image?url=%2Fimages%2Fsocial%2Ffb.png&w=96&q=75"
+        srcset="/_next/image?url=%2Fimages%2Fsocial%2Ffb.png&w=48&q=75 1x, /_next/image?url=%2Fimages%2Fsocial%2Ffb.png&w=96&q=75 2x"
+        style="color: transparent;"
+        width="48"
+      />
+    </a>
+    <a
+      href="https://www.instagram.com"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      <img
+        alt="Instagram"
+        data-nimg="1"
+        decoding="async"
+        height="48"
+        loading="lazy"
+        src="/images/social/instagram.svg"
+        style="color: transparent;"
+        width="48"
+      />
+    </a>
+  </div>
+</div>
+`;

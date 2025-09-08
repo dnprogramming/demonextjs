@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`DemoTable Component renders DemoTable component unchanged 1`] = `
+<div>
+  <div
+    id="demoTablesHeader"
+  >
+    <h2>
+      Our Demo Tables
+    </h2>
+    <div
+      class="demoDetails"
+    >
+      <div
+        class="demoTabs"
+      >
+        <button
+          class="demoTab active"
+        >
+          First Demo Type
+        </button>
+        <button
+          class="demoTab "
+        >
+          Second Demo Type
+        </button>
+      </div>
+      <div
+        class="demoContent"
+      >
+        <div
+          class="demoGrid"
+        >
+          <div
+            class="demoCard"
+          >
+            <h2>
+              First Card
+            </h2>
+            <p>
+              This is the description for the first card.
+            </p>
+          </div>
+          <div
+            class="demoCard"
+          >
+            <h2>
+              Second Card
+              <span>
+                *
+              </span>
+            </h2>
+            <p>
+              Each card is built to be displayed within the demo table system and is customizable.
+            </p>
+          </div>
+          <div
+            class="demoCard"
+          >
+            <h2>
+              Third Card
+            </h2>
+            <p>
+              Cards can be active or inactive, and can be marked as new to highlight recent additions.
+            </p>
+          </div>
+        </div>
+        <div
+          class="demoCardNotation"
+        >
+          <p>
+            <span>
+              *
+            </span>
+             denotes New Demo Description!
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

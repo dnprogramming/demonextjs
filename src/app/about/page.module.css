@@ -1,0 +1,53 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5dvh;
+    padding: 0 1.25rem;
+    width: 100dvw;
+}
+
+@media (width <= 768px) {
+    .about {
+        padding: 0;
+    }
+}
+
+.about hr {
+    width: 100%;
+    height: 1px;
+    background-color: var(--foreground);
+    border: none;
+    margin: 1.25rem auto;
+}
+
+.about h1 {
+    font-size: var(--h1-font-size);
+    line-height: 56px;
+    font-weight: 600;
+    color: var(--foreground);
+    margin: 0 auto;
+}
+
+.about h2 {
+    font-size: var(--h2-font-size);
+    color: var(--foreground);
+    margin: 0 auto;
+}
+
+.about h3 {
+    font-size: var(--h3-font-size);
+    color: var(--foreground);
+    margin: 0 auto;
+}
+
+.about span {
+    font-size: var(--span-font-size);
+    color: var(--foreground);
+    margin: 0 auto;
+    line-height: 1.5;
+    max-width: 800px;
+    text-align: center;
+}

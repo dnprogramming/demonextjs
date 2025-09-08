@@ -1,0 +1,21 @@
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 1.25rem;
+    width: 100dvw;
+}
+
+.gallery h1 {
+    font-size: var(--h1-font-size);
+    margin: 2rem auto 0;
+}
+
+@media screen and (width <= 768px) {
+    .gallery {
+        padding: 0;
+        width: 100dvw;
+    }
+}

@@ -1,0 +1,27 @@
+.heroImage {
+    width: 100%;
+    height: auto;
+    max-width: 100dvw;
+    max-height: 50vh;
+    object-fit: cover;
+  }
+
+  #hero {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 1.25rem;
+    font-size: var(--default-font-size);
+    width: 100dvw;
+    font-display: swap;
+  }
+
+  #hero h1 {
+    font-size: var(--h1-font-size);
+    line-height: 56px;
+    font-weight: 600;
+    font-display: swap;
+  }

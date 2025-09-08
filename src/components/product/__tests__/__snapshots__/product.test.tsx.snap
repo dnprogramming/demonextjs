@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Product Component renders product component unchanged 1`] = `
+<div>
+  <div
+    id="productHeader"
+  >
+    <h2>
+      Our Products
+    </h2>
+    <p>
+      Products that get made is high quality web applications
+    </p>
+    <br />
+    <h3>
+      The Applications
+    </h3>
+    <p>
+      Custom applications always is a very useful item for any business. Having
+    </p>
+    <br />
+    A software craftsman:
+    <ol
+      type="1"
+    >
+      <li>
+        Always learning new technologies
+      </li>
+      <li>
+        Always honing their craft
+      </li>
+      <li>
+        Takes time to mentor others are they grow
+      </li>
+    </ol>
+  </div>
+</div>
+`;

@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Modal Component renders modal component unchanged 1`] = `
+<div>
+  <div
+    class="modalOverlay"
+  >
+    <div
+      class="modalContent"
+    >
+      <button
+        class="closeButton"
+      >
+        ×
+      </button>
+      <img
+        alt="Demo Next.JS Modal Image"
+        class="modalImage"
+        data-nimg="1"
+        decoding="async"
+        height="1080"
+        loading="lazy"
+        src="/_next/image?url=%2Fimages%2Fhero_banner.png&w=3840&q=75"
+        srcset="/_next/image?url=%2Fimages%2Fhero_banner.png&w=1920&q=75 1x, /_next/image?url=%2Fimages%2Fhero_banner.png&w=3840&q=75 2x"
+        style="color: transparent;"
+        width="1920"
+      />
+    </div>
+  </div>
+</div>
+`;

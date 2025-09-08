@@ -1,0 +1,69 @@
+.demoDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 100dvw;
+}
+
+.demoTabs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: var(--color-background);
+    box-shadow: var(--shadow);
+    border-radius: 0.5rem;
+}
+
+@media (width <= 768px) {
+    .demoTabs {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background-color: var(--color-background);
+        box-shadow: var(--shadow);
+        border-radius: 0.5rem;
+        padding: 0;
+    }
+
+    .demoTab {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0.5rem;
+        background-color: var(--color-background);
+        box-shadow: var(--shadow);
+        color: #FFF;
+        width: 100dvw;
+        padding: 0;
+    }
+}
+
+.demoTab {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: var(--color-background);
+    box-shadow: var(--shadow);
+    color: var(--foreground);
+    font-size: var(--button-font-size);
+}
+
+.demoTab:hover {
+    box-shadow: var(--shadow-hover);
+}
+
+.active {
+    background-color: var(--active-background);
+    box-shadow: var(--shadow-hover);
+}

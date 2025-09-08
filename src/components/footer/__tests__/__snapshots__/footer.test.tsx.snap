@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Footer Component renders footer component unchanged 1`] = `
+<div>
+  <div
+    id="footer"
+  >
+    <p>
+      ©
+      2025
+       Demo Next.JS.
+      <br />
+      All rights reserved.
+    </p>
+  </div>
+</div>
+`;

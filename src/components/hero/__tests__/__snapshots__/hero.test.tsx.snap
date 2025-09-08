@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Hero Component renders hero component unchanged 1`] = `
+<div>
+  <img
+    alt="Demo Hero Banner"
+    class="heroImage"
+    data-nimg="1"
+    decoding="async"
+    height="1080"
+    loading="eager"
+    src="/_next/image?url=%2Fimages%2Fhero_banner.png&w=3840&q=75"
+    srcset="/_next/image?url=%2Fimages%2Fhero_banner.png&w=1920&q=75 1x, /_next/image?url=%2Fimages%2Fhero_banner.png&w=3840&q=75 2x"
+    style="color: transparent;"
+    width="1920"
+  />
+  <div
+    id="hero"
+  >
+    <h1>
+      Need an application developed?
+    </h1>
+    An applications can take time and resources to develop but the return on investment can be exponential by having it built by a quality team.
+  </div>
+</div>
+`;

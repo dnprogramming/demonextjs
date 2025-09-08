@@ -1,0 +1,18 @@
+{
+    "extends": [
+        "stylelint-config-standard"
+    ],
+    "reportDescriptionlessDisables": true,
+    "reportInvalidScopeDisables": true,
+    "reportNeedlessDisables": true,
+    "reportUnsupportedBrowserFeatures": true,
+    "reportUnsupportedVendorPrefixes": true,
+    "ignoreFiles": [
+        "coverage/**"
+    ],
+    "rules": {
+        "selector-class-pattern": "^[a-z][a-zA-Z0-9]+$",
+        "selector-id-pattern": "^[a-z][a-zA-Z0-9]+$",
+        "function-name-case": "lower"
+    }
+}

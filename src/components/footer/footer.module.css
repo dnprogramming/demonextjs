@@ -1,0 +1,12 @@
+#footer {
+    width: 100dvw;
+    height: 10dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-size: var(--default-font-size);
+    text-align: center;
+    border-top: 1px solid var(--foreground);
+    margin-top: 1rem;
+}

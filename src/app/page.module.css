@@ -1,0 +1,8 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  grid-row-start: 2;
+  max-width: 100dvw;
+  margin: 0 auto 10vh;
+}

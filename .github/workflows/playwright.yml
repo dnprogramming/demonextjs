@@ -1,0 +1,38 @@
+name: Playwright Tests
+on:
+  push:
+    branches: [ "**" ]
+  pull_request:
+    branches: [ main, master ]
+jobs:
+  test:
+    timeout-minutes: 60
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v5
+    - uses: actions/setup-node@v5
+      with:
+        node-version: lts/*
+    - name: Install dependencies
+      run: npm install -g yarn && yarn
+    - name: Install Playwright Browsers
+      run: yarn playwright install --with-deps
+    - name: Build Application
+      run: yarn build
+      env:
+        RESEND_API_KEY: ${{secrets.PLAYWRIGHT_RESEND_API_KEY}}
+        RECAPTCHA_SECRET_KEY: ${{secrets.PLAYWRIGHT_RECAPTCHA_SECRET_KEY}}
+        NEXT_PUBLIC_RECAPTCHA_SITE_KEY: ${{secrets.PLAYWRIGHT_NEXT_PUBLIC_RECAPTCHA_SITE_KEY}}
+        FROM_EMAIL: ${{secrets.PLAYWRIGHT_FROM_EMAIL}}
+        TO_EMAIL: ${{secrets.PLAYWRIGHT_TO_EMAIL}}
+        WEBSITE_URL: ${{secrets.PLAYWRIGHT_WEBSITE_URL}}
+    - name: Run Playwright tests
+      run: yarn playwright test
+      env:
+        CI: true
+    - uses: actions/upload-artifact@v4
+      if: ${{ !cancelled() }}
+      with:
+        name: playwright-report
+        path: playwright-report/
+        retention-days: 30

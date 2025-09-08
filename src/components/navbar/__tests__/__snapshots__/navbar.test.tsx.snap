@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Page renders homepage unchanged 1`] = `
+<div>
+  <div
+    class="navbar"
+  >
+    <div
+      class="hamburger"
+    >
+      ☰
+    </div>
+    <div
+      class="linksContainer "
+    >
+      <a
+        href="/"
+      >
+        Home
+      </a>
+      <a
+        href="/about"
+      >
+        About
+      </a>
+      <a
+        href="/contact"
+      >
+        Contact
+      </a>
+      <a
+        href="/gallery"
+      >
+        Gallery
+      </a>
+      <a
+        href="/fundraisers"
+      >
+        Fundraisers
+      </a>
+      <a
+        href="/shop"
+      >
+        Shop
+      </a>
+    </div>
+  </div>
+</div>
+`;

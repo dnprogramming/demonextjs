@@ -1,0 +1,4 @@
+yarn lint:fix
+yarn lint:style:fix
+yarn test:update
+yarn test
