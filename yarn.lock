@@ -7951,10 +7951,10 @@ require-from-string@^2.0.2:
   resolved "https://registry.npmjs.org/require-from-string/-/require-from-string-2.0.2.tgz"
   integrity sha512-Xf0nWe6RseziFMu+Ap9biiUbmplq6S9/p+7w7YXP/JBHhrUDDUhwa+vANyubuqfZWTveU//DYVGsDG7RKL/vEw==
 
-resend@^6.0.3:
-  version "6.0.3"
-  resolved "https://registry.yarnpkg.com/resend/-/resend-6.0.3.tgz#1ad21e6b957eff9664bb849cd201e7becb4eda4a"
-  integrity sha512-Yb7o2n52v91LjkUjq5vIZQbJrGiaPoMo2VPAyS0QTKA73tmvHMUQ7P1M56J1ux/Cw9Lf68PeaKidTl6GuS8DTA==
+resend@^6.1.0:
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/resend/-/resend-6.1.0.tgz#d623aafbc826e13e9abd6732bf2af53c125f636a"
+  integrity sha512-H0cJI2pcLk5/dGwyvZUHu+O7X/q6arvc40EWm+pRPuy+PSWojH5utZtmDBUZ2L0+gVwYZiWs6y2lw6GQA1z1rg==
 
 resolve-cwd@^3.0.0:
   version "3.0.0"
