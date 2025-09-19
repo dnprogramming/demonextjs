@@ -8417,10 +8417,10 @@ std-env@^3.9.0:
   resolved "https://registry.yarnpkg.com/std-env/-/std-env-3.9.0.tgz#1a6f7243b339dca4c9fd55e1c7504c77ef23e8f1"
   integrity sha512-UGvjygr6F6tpH7o2qyqR6QYpwraIjKSdtzyBdyytFOHmPZY917kwdwLG0RbOjWOnKmnm3PeHjaoLLMie7kPLQw==
 
-storybook@^9.1.6:
-  version "9.1.6"
-  resolved "https://registry.yarnpkg.com/storybook/-/storybook-9.1.6.tgz#458d47391547fcdcc357abf9e4217d52f4a3a658"
-  integrity sha512-iIcMaDKkjR5nN+JYBy9hhoxZhjX4TXhyJgUBed+toJOlfrl+QvxpBjImAi7qKyLR3hng3uoigEP0P8+vYtXpOg==
+storybook@^9.1.7:
+  version "9.1.7"
+  resolved "https://registry.yarnpkg.com/storybook/-/storybook-9.1.7.tgz#a4bb0f91acf5b5928eb697014cfb1e3fe387544a"
+  integrity sha512-X8YSQMNuqV9DklQLZH6mLKpDn15Z5tuUUTAIYsiGqx5BwsjtXnv5K04fXgl3jqTZyUauzV/ii8KdT04NVLtMwQ==
   dependencies:
     "@storybook/global" "^5.0.0"
     "@testing-library/jest-dom" "^6.6.3"
