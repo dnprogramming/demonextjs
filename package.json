@@ -36,7 +36,7 @@
     "@playwright/test": "^1.56.1",
     "@storybook/addon-a11y": "^9.1.15",
     "@storybook/addon-docs": "^9.1.13",
-    "@storybook/addon-onboarding": "^9.1.13",
+    "@storybook/addon-onboarding": "^9.1.15",
     "@storybook/addon-vitest": "^9.1.15",
     "@storybook/nextjs": "^9.1.15",
     "@storybook/nextjs-vite": "9.1.15",
