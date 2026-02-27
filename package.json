@@ -34,7 +34,7 @@
     "@eslint/eslintrc": "^3",
     "@jest/globals": "^30.2.0",
     "@playwright/test": "^1.58.2",
-    "@storybook/addon-a11y": "^9.1.17",
+    "@storybook/addon-a11y": "^9.1.19",
     "@storybook/addon-docs": "^9.1.17",
     "@storybook/addon-onboarding": "^9.1.17",
     "@storybook/addon-vitest": "^9.1.15",
