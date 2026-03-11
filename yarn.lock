@@ -1697,16 +1697,6 @@
     jest-mock "30.3.0"
     jest-util "30.3.0"
 
-"@jest/environment@30.2.0":
-  version "30.2.0"
-  resolved "https://registry.yarnpkg.com/@jest/environment/-/environment-30.2.0.tgz#1e673cdb8b93ded707cf6631b8353011460831fa"
-  integrity sha512-/QPTL7OBJQ5ac09UDRa3EQes4gt1FTEG/8jZ/4v5IVzx+Cv7dLxlVIvfvSVRiiX2drWyXeBjkMSR8hvOWSog5g==
-  dependencies:
-    "@jest/fake-timers" "30.2.0"
-    "@jest/types" "30.2.0"
-    "@types/node" "*"
-    jest-mock "30.2.0"
-
 "@jest/environment@30.3.0":
   version "30.3.0"
   resolved "https://registry.yarnpkg.com/@jest/environment/-/environment-30.3.0.tgz#b0657c2944b6ef3352f7b25903cc3a23e6ab70f6"
@@ -1738,18 +1728,6 @@
   dependencies:
     expect "30.3.0"
     jest-snapshot "30.3.0"
-
-"@jest/fake-timers@30.2.0":
-  version "30.2.0"
-  resolved "https://registry.yarnpkg.com/@jest/fake-timers/-/fake-timers-30.2.0.tgz#0941ddc28a339b9819542495b5408622dc9e94ec"
-  integrity sha512-HI3tRLjRxAbBy0VO8dqqm7Hb2mIa8d5bg/NJkyQcOk7V118ObQML8RC5luTF/Zsg4474a+gDvhce7eTnP4GhYw==
-  dependencies:
-    "@jest/types" "30.2.0"
-    "@sinonjs/fake-timers" "^13.0.0"
-    "@types/node" "*"
-    jest-message-util "30.2.0"
-    jest-mock "30.2.0"
-    jest-util "30.2.0"
 
 "@jest/fake-timers@30.3.0":
   version "30.3.0"
@@ -1885,19 +1863,6 @@
   version "30.0.5"
   resolved "https://registry.yarnpkg.com/@jest/types/-/types-30.0.5.tgz#29a33a4c036e3904f1cfd94f6fe77f89d2e1cc05"
   integrity sha512-aREYa3aku9SSnea4aX6bhKn4bgv3AXkgijoQgbYV3yvbiGt6z+MQ85+6mIhx9DsKW2BuB/cLR/A+tcMThx+KLQ==
-  dependencies:
-    "@jest/pattern" "30.0.1"
-    "@jest/schemas" "30.0.5"
-    "@types/istanbul-lib-coverage" "^2.0.6"
-    "@types/istanbul-reports" "^3.0.4"
-    "@types/node" "*"
-    "@types/yargs" "^17.0.33"
-    chalk "^4.1.2"
-
-"@jest/types@30.2.0":
-  version "30.2.0"
-  resolved "https://registry.yarnpkg.com/@jest/types/-/types-30.2.0.tgz#1c678a7924b8f59eafd4c77d56b6d0ba976d62b8"
-  integrity sha512-H9xg1/sfVvyfU7o3zMfBEjQ1gcsdeTMgqHoYdN79tuLqfTtuu7WckRA1R5whDwOzxaZAeMKTYWqP+WCAi0CHsg==
   dependencies:
     "@jest/pattern" "30.0.1"
     "@jest/schemas" "30.0.5"
@@ -2311,13 +2276,6 @@
   integrity sha512-K3mCHKQ9sVh8o1C9cxkwxaOmXoAMlDxC1mYyHrjqOWEcBjYr76t96zL2zlj5dUGZ3HSw240X1qgH3Mjf1yJWpQ==
   dependencies:
     type-detect "4.0.8"
-
-"@sinonjs/fake-timers@^13.0.0":
-  version "13.0.5"
-  resolved "https://registry.yarnpkg.com/@sinonjs/fake-timers/-/fake-timers-13.0.5.tgz#36b9dbc21ad5546486ea9173d6bea063eb1717d5"
-  integrity sha512-36/hTbH2uaWuGVERyC6da9YwGWnzUZXuPro/F2LfsdOsLnCojz/iSH8MxUt/FD2S5XBSVPhmArFUXcpCQ2Hkiw==
-  dependencies:
-    "@sinonjs/commons" "^3.0.1"
 
 "@sinonjs/fake-timers@^15.0.0":
   version "15.1.1"
@@ -3100,10 +3058,10 @@
   resolved "https://registry.yarnpkg.com/@vercel/analytics/-/analytics-1.6.1.tgz#b4e16daf445cf6cd365a91e43d86e9e5b3428ddc"
   integrity sha512-oH9He/bEM+6oKlv3chWuOOcp8Y6fo6/PSro8hEkgCW3pu9/OiCXiUpRUogDh3Fs3LH2sosDrx8CxeOLBEE+afg==
 
-"@vercel/speed-insights@^1.3.1":
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/@vercel/speed-insights/-/speed-insights-1.3.1.tgz#df8baeba65a1aaaf11adbd09d3fe7edc6b2a493a"
-  integrity sha512-PbEr7FrMkUrGYvlcLHGkXdCkxnylCWePx7lPxxq36DNdfo9mcUjLOmqOyPDHAOgnfqgGGdmE3XI9L/4+5fr+vQ==
+"@vercel/speed-insights@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@vercel/speed-insights/-/speed-insights-2.0.0.tgz#76e7ce61ce5db6f006a4991b0f60bd12d7c61b7c"
+  integrity sha512-jwkNcrTeafWxjmWq4AHBaptSqZiJkYU5adLC9QBSqeim0GcqDMgN5Ievh8OG1rJ6W3A4l1oiP7qr9CWxGuzu3w==
 
 "@vitest/browser@^3.2.1":
   version "3.2.1"
@@ -6680,21 +6638,6 @@ jest-message-util@30.1.0:
     slash "^3.0.0"
     stack-utils "^2.0.6"
 
-jest-message-util@30.2.0:
-  version "30.2.0"
-  resolved "https://registry.yarnpkg.com/jest-message-util/-/jest-message-util-30.2.0.tgz#fc97bf90d11f118b31e6131e2b67fc4f39f92152"
-  integrity sha512-y4DKFLZ2y6DxTWD4cDe07RglV88ZiNEdlRfGtqahfbIjfsw1nMCPx49Uev4IA/hWn3sDKyAnSPwoYSsAEdcimw==
-  dependencies:
-    "@babel/code-frame" "^7.27.1"
-    "@jest/types" "30.2.0"
-    "@types/stack-utils" "^2.0.3"
-    chalk "^4.1.2"
-    graceful-fs "^4.2.11"
-    micromatch "^4.0.8"
-    pretty-format "30.2.0"
-    slash "^3.0.0"
-    stack-utils "^2.0.6"
-
 jest-message-util@30.3.0:
   version "30.3.0"
   resolved "https://registry.yarnpkg.com/jest-message-util/-/jest-message-util-30.3.0.tgz#4d723544d36890ba862ac3961db52db5b0d1ba39"
@@ -6718,15 +6661,6 @@ jest-mock@30.0.5:
     "@jest/types" "30.0.5"
     "@types/node" "*"
     jest-util "30.0.5"
-
-jest-mock@30.2.0:
-  version "30.2.0"
-  resolved "https://registry.yarnpkg.com/jest-mock/-/jest-mock-30.2.0.tgz#69f991614eeb4060189459d3584f710845bff45e"
-  integrity sha512-JNNNl2rj4b5ICpmAcq+WbLH83XswjPbjH4T7yvGzfAGCPh1rw+xVNbtk+FnRslvt9lkCcdn9i1oAoKUuFsOxRw==
-  dependencies:
-    "@jest/types" "30.2.0"
-    "@types/node" "*"
-    jest-util "30.2.0"
 
 jest-mock@30.3.0:
   version "30.3.0"
@@ -6858,18 +6792,6 @@ jest-util@30.0.5:
   integrity sha512-pvyPWssDZR0FlfMxCBoc0tvM8iUEskaRFALUtGQYzVEAqisAztmy+R8LnU14KT4XA0H/a5HMVTXat1jLne010g==
   dependencies:
     "@jest/types" "30.0.5"
-    "@types/node" "*"
-    chalk "^4.1.2"
-    ci-info "^4.2.0"
-    graceful-fs "^4.2.11"
-    picomatch "^4.0.2"
-
-jest-util@30.2.0:
-  version "30.2.0"
-  resolved "https://registry.yarnpkg.com/jest-util/-/jest-util-30.2.0.tgz#5142adbcad6f4e53c2776c067a4db3c14f913705"
-  integrity sha512-QKNsM0o3Xe6ISQU869e+DhG+4CK/48aHYdJZGlFQVTjnbvgpcKyxpzk29fGiO7i/J8VENZ+d2iGnSsvmuHywlA==
-  dependencies:
-    "@jest/types" "30.2.0"
     "@types/node" "*"
     chalk "^4.1.2"
     ci-info "^4.2.0"
@@ -7996,15 +7918,6 @@ pretty-format@30.0.5, pretty-format@^30.0.0:
   version "30.0.5"
   resolved "https://registry.yarnpkg.com/pretty-format/-/pretty-format-30.0.5.tgz#e001649d472800396c1209684483e18a4d250360"
   integrity sha512-D1tKtYvByrBkFLe2wHJl2bwMJIiT8rW+XA+TiataH79/FszLQMrpGEvzUVkzPau7OCO0Qnrhpe87PqtOAIB8Yw==
-  dependencies:
-    "@jest/schemas" "30.0.5"
-    ansi-styles "^5.2.0"
-    react-is "^18.3.1"
-
-pretty-format@30.2.0:
-  version "30.2.0"
-  resolved "https://registry.yarnpkg.com/pretty-format/-/pretty-format-30.2.0.tgz#2d44fe6134529aed18506f6d11509d8a62775ebe"
-  integrity sha512-9uBdv/B4EefsuAL+pWqueZyZS2Ba+LxfFeQ9DN14HU4bN8bhaxKdkpjpB6fs9+pSjIBu+FXQHImEg8j/Lw0+vA==
   dependencies:
     "@jest/schemas" "30.0.5"
     ansi-styles "^5.2.0"
