@@ -1955,6 +1955,14 @@
     "@jridgewell/sourcemap-codec" "^1.4.10"
     "@jridgewell/trace-mapping" "^0.3.24"
 
+"@jridgewell/remapping@^2.3.5":
+  version "2.3.5"
+  resolved "https://registry.yarnpkg.com/@jridgewell/remapping/-/remapping-2.3.5.tgz#375c476d1972947851ba1e15ae8f123047445aa1"
+  integrity sha512-LI9u/+laYG4Ds1TDKSJW2YPrIlcVYOwi2fUC6xB43lueCjgxV4lffOCZCtYFiH6TNOX+tQKXx97T4IKHbhyHEQ==
+  dependencies:
+    "@jridgewell/gen-mapping" "^0.3.5"
+    "@jridgewell/trace-mapping" "^0.3.24"
+
 "@jridgewell/resolve-uri@^3.0.3", "@jridgewell/resolve-uri@^3.1.0":
   version "3.1.2"
   resolved "https://registry.yarnpkg.com/@jridgewell/resolve-uri/-/resolve-uri-3.1.2.tgz#7a0ee601f60f99a20c7c7c5ff0c80388c1189bd6"
@@ -2349,15 +2357,15 @@
     "@storybook/global" "^5.0.0"
     axe-core "^4.2.0"
 
-"@storybook/addon-docs@^9.1.19":
-  version "9.1.19"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-docs/-/addon-docs-9.1.19.tgz#eb258e898fa4e4f61e25e8872390aa5260e40a9b"
-  integrity sha512-kRK3oIq4wlyH5Zr7Dpr44zzk3nhJdegKSNe6b4wi0a1vnIhnuuxgJc0KXqgiyP2jb1GfUTB/1IRfDqUsQEw+vg==
+"@storybook/addon-docs@^10.3.5":
+  version "10.3.5"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-docs/-/addon-docs-10.3.5.tgz#8385220e1c90c234c1edb95859148bd8367c9bf3"
+  integrity sha512-WuHbxia/o5TX4Rg/IFD0641K5qId/Nk0dxhmAUNoFs5L0+yfZUwh65XOBbzXqrkYmYmcVID4v7cgDRmzstQNkA==
   dependencies:
     "@mdx-js/react" "^3.0.0"
-    "@storybook/csf-plugin" "9.1.19"
-    "@storybook/icons" "^1.4.0"
-    "@storybook/react-dom-shim" "9.1.19"
+    "@storybook/csf-plugin" "10.3.5"
+    "@storybook/icons" "^2.0.1"
+    "@storybook/react-dom-shim" "10.3.5"
     react "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0"
     react-dom "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0"
     ts-dedent "^2.0.0"
@@ -2411,6 +2419,13 @@
   dependencies:
     ts-dedent "^2.0.0"
 
+"@storybook/csf-plugin@10.3.5":
+  version "10.3.5"
+  resolved "https://registry.yarnpkg.com/@storybook/csf-plugin/-/csf-plugin-10.3.5.tgz#f28adbbd389bf03193022e5a7684aa971a6241a0"
+  integrity sha512-qlEzNKxOjq86pvrbuMwiGD/bylnsXk1dg7ve0j77YFjEEchqtl7qTlrXvFdNaLA89GhW6D/EV6eOCu/eobPDgw==
+  dependencies:
+    unplugin "^2.3.5"
+
 "@storybook/csf-plugin@9.1.15":
   version "9.1.15"
   resolved "https://registry.yarnpkg.com/@storybook/csf-plugin/-/csf-plugin-9.1.15.tgz#7b8b63a383fa70188ad2caacd7ff83a43d637c4c"
@@ -2418,22 +2433,10 @@
   dependencies:
     unplugin "^1.3.1"
 
-"@storybook/csf-plugin@9.1.19":
-  version "9.1.19"
-  resolved "https://registry.yarnpkg.com/@storybook/csf-plugin/-/csf-plugin-9.1.19.tgz#4b04fe454e0a773752be544adb00d17565a4c6ff"
-  integrity sha512-jQN9JAbyDxjcQ5r48/t/rb4RMow5V/WB7LUir1Sp5GSMMSg5QD2XlfVuSnxsUk2VjhKVZNmwCa8jMCTjBR3L9Q==
-  dependencies:
-    unplugin "^1.3.1"
-
 "@storybook/global@^5.0.0":
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/@storybook/global/-/global-5.0.0.tgz#b793d34b94f572c1d7d9e0f44fac4e0dbc9572ed"
   integrity sha512-FcOqPAXACP0I3oJ/ws6/rrPT9WGhu915Cg8D02a9YxLo0DE9zI+a9A5gRGvmQ09fiWPukqI8ZAEoQEdWUKMQdQ==
-
-"@storybook/icons@^1.4.0":
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/@storybook/icons/-/icons-1.4.0.tgz#7cf7ab3dfb41943930954c4ef493a73798d8b31d"
-  integrity sha512-Td73IeJxOyalzvjQL+JXx72jlIYHgs+REaHiREOqfpo3A2AYYG71AUbcv+lg7mEDIweKVCxsMQ0UKo634c8XeA==
 
 "@storybook/icons@^2.0.1":
   version "2.0.1"
@@ -2519,15 +2522,15 @@
     react-docgen-typescript "^2.2.2"
     tslib "^2.0.0"
 
+"@storybook/react-dom-shim@10.3.5":
+  version "10.3.5"
+  resolved "https://registry.yarnpkg.com/@storybook/react-dom-shim/-/react-dom-shim-10.3.5.tgz#8f9a9238a96813c1b5343ecd3bfbd3cf61815977"
+  integrity sha512-Gw8R7XZm0zSUH0XAuxlQJhmizsLzyD6x00KOlP6l7oW9eQHXGfxg3seNDG3WrSAcW07iP1/P422kuiriQlOv7g==
+
 "@storybook/react-dom-shim@9.1.15":
   version "9.1.15"
   resolved "https://registry.yarnpkg.com/@storybook/react-dom-shim/-/react-dom-shim-9.1.15.tgz#6ed1ba37dfcf5c2375325a9ed77f7bd2bac1375f"
   integrity sha512-l6smvNwxh6kp2U/BupzQ4/NSraTWysZcAe2x+GO5CiIIB8Jbi41XLu5XIHI/GQRnNqpXXE3uMImiHGOORmHEXA==
-
-"@storybook/react-dom-shim@9.1.19":
-  version "9.1.19"
-  resolved "https://registry.yarnpkg.com/@storybook/react-dom-shim/-/react-dom-shim-9.1.19.tgz#51200eb6dbd231d0059fa84a3c3a001f752e71df"
-  integrity sha512-raIZEhHFQANSPBikc1Zn6cEHHnj+MbrUD3bbxj/abQHi/bqRIAf20ALOAfIuKk1oFD7lSP6J22h4FXYZm/TtFA==
 
 "@storybook/react-vite@9.1.15":
   version "9.1.15"
@@ -9672,6 +9675,16 @@ unplugin@^1.3.1:
   integrity sha512-4/u/j4FrCKdi17jaxuJA0jClGxB1AvU2hw/IuayPc4ay1XGaJs/rbb4v5WKwAjNifjmXK9PIFyuPiaK8azyR9w==
   dependencies:
     acorn "^8.14.0"
+    webpack-virtual-modules "^0.6.2"
+
+unplugin@^2.3.5:
+  version "2.3.11"
+  resolved "https://registry.yarnpkg.com/unplugin/-/unplugin-2.3.11.tgz#411e020dd2ba90e2fbe1e7bd63a5a399e6ee3b54"
+  integrity sha512-5uKD0nqiYVzlmCRs01Fhs2BdkEgBS3SAVP6ndrBsuK42iC2+JHyxM05Rm9G8+5mkmRtzMZGY8Ct5+mliZxU/Ww==
+  dependencies:
+    "@jridgewell/remapping" "^2.3.5"
+    acorn "^8.15.0"
+    picomatch "^4.0.3"
     webpack-virtual-modules "^0.6.2"
 
 unrs-resolver@^1.3.2:
