@@ -2227,10 +2227,10 @@
   resolved "https://registry.yarnpkg.com/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-16.2.4.tgz#8252d02b505be5025dee62628859761e0bb11597"
   integrity sha512-kMVGgsqhO5YTYODD9IPGGhA6iprWidQckK3LmPeW08PIFENRmgfb4MjXHO+p//d+ts2rpjvK5gXWzXSMrPl9cw==
 
-"@next/third-parties@^16.2.4":
-  version "16.2.4"
-  resolved "https://registry.yarnpkg.com/@next/third-parties/-/third-parties-16.2.4.tgz#c7d3611ca10cf2e89579c4980091c715f9d206d4"
-  integrity sha512-FhDDX02cAr0WIo3la+QHP3XaAAV6twCfFk/y8pHikFT8MHwNpB3XgEdaT0omLrIWBORhM5wkbbUJFq+pBqZzmw==
+"@next/third-parties@^16.2.5":
+  version "16.2.5"
+  resolved "https://registry.yarnpkg.com/@next/third-parties/-/third-parties-16.2.5.tgz#1061c2fccc84f759f2ff62b4afa27b1d0c3105ea"
+  integrity sha512-GgjE9fJiYDr5eMEowSWoThJVV4fOHVA4vJ5oxAzoaa3Agfj56g+0PkPXtj0CjdaH6IlUFBtUPp5r2kfdGABK1w==
   dependencies:
     third-party-capital "1.0.20"
 
@@ -2528,13 +2528,6 @@
   dependencies:
     ts-dedent "^2.0.0"
 
-"@storybook/csf-plugin@10.3.5":
-  version "10.3.5"
-  resolved "https://registry.yarnpkg.com/@storybook/csf-plugin/-/csf-plugin-10.3.5.tgz#f28adbbd389bf03193022e5a7684aa971a6241a0"
-  integrity sha512-qlEzNKxOjq86pvrbuMwiGD/bylnsXk1dg7ve0j77YFjEEchqtl7qTlrXvFdNaLA89GhW6D/EV6eOCu/eobPDgw==
-  dependencies:
-    unplugin "^2.3.5"
-
 "@storybook/csf-plugin@10.3.6":
   version "10.3.6"
   resolved "https://registry.yarnpkg.com/@storybook/csf-plugin/-/csf-plugin-10.3.6.tgz#4c97354c34b28e0572349e5c3ba9060cf2cd023a"
@@ -2629,11 +2622,6 @@
     micromatch "^4.0.2"
     react-docgen-typescript "^2.2.2"
     tslib "^2.0.0"
-
-"@storybook/react-dom-shim@10.3.5":
-  version "10.3.5"
-  resolved "https://registry.yarnpkg.com/@storybook/react-dom-shim/-/react-dom-shim-10.3.5.tgz#8f9a9238a96813c1b5343ecd3bfbd3cf61815977"
-  integrity sha512-Gw8R7XZm0zSUH0XAuxlQJhmizsLzyD6x00KOlP6l7oW9eQHXGfxg3seNDG3WrSAcW07iP1/P422kuiriQlOv7g==
 
 "@storybook/react-dom-shim@10.3.6":
   version "10.3.6"
