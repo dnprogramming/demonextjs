@@ -2528,13 +2528,6 @@
   dependencies:
     ts-dedent "^2.0.0"
 
-"@storybook/csf-plugin@10.3.5":
-  version "10.3.5"
-  resolved "https://registry.yarnpkg.com/@storybook/csf-plugin/-/csf-plugin-10.3.5.tgz#f28adbbd389bf03193022e5a7684aa971a6241a0"
-  integrity sha512-qlEzNKxOjq86pvrbuMwiGD/bylnsXk1dg7ve0j77YFjEEchqtl7qTlrXvFdNaLA89GhW6D/EV6eOCu/eobPDgw==
-  dependencies:
-    unplugin "^2.3.5"
-
 "@storybook/csf-plugin@10.3.6":
   version "10.3.6"
   resolved "https://registry.yarnpkg.com/@storybook/csf-plugin/-/csf-plugin-10.3.6.tgz#4c97354c34b28e0572349e5c3ba9060cf2cd023a"
@@ -2629,11 +2622,6 @@
     micromatch "^4.0.2"
     react-docgen-typescript "^2.2.2"
     tslib "^2.0.0"
-
-"@storybook/react-dom-shim@10.3.5":
-  version "10.3.5"
-  resolved "https://registry.yarnpkg.com/@storybook/react-dom-shim/-/react-dom-shim-10.3.5.tgz#8f9a9238a96813c1b5343ecd3bfbd3cf61815977"
-  integrity sha512-Gw8R7XZm0zSUH0XAuxlQJhmizsLzyD6x00KOlP6l7oW9eQHXGfxg3seNDG3WrSAcW07iP1/P422kuiriQlOv7g==
 
 "@storybook/react-dom-shim@10.3.6":
   version "10.3.6"
@@ -8564,13 +8552,13 @@ require-from-string@^2.0.2:
   resolved "https://registry.npmjs.org/require-from-string/-/require-from-string-2.0.2.tgz"
   integrity sha512-Xf0nWe6RseziFMu+Ap9biiUbmplq6S9/p+7w7YXP/JBHhrUDDUhwa+vANyubuqfZWTveU//DYVGsDG7RKL/vEw==
 
-resend@^6.12.2:
-  version "6.12.2"
-  resolved "https://registry.yarnpkg.com/resend/-/resend-6.12.2.tgz#4b9eb2e129c9369e25e19c8abd12913968e8c647"
-  integrity sha512-xwgmU4b0OqoabJsIoK/x0Whk0Fcs3bpbK4i/DEWPiE5hYJHyHl0TbB6QbI3gIr+bLdLUJ1GYm/fe41aVFuHXgw==
+resend@^6.12.3:
+  version "6.12.3"
+  resolved "https://registry.yarnpkg.com/resend/-/resend-6.12.3.tgz#d4e180f21c9edb21db074d48766e84866551313c"
+  integrity sha512-FkEi6YPnVL96/LvH8+QP7NaeaBy5brYXwlRqUCqZZeNL0/iyKij18IPmyPXYauT/2ODn1JG04qKz+qlJfzqzTw==
   dependencies:
     postal-mime "2.7.4"
-    svix "1.90.0"
+    svix "1.92.2"
 
 resolve-cwd@^3.0.0:
   version "3.0.0"
@@ -9395,13 +9383,12 @@ svg-tags@^1.0.0:
   resolved "https://registry.npmjs.org/svg-tags/-/svg-tags-1.0.0.tgz"
   integrity sha512-ovssysQTa+luh7A5Weu3Rta6FJlFBBbInjOh722LIt6klpU2/HtdUbszju/G4devcvk8PGt7FCLv5wftu3THUA==
 
-svix@1.90.0:
-  version "1.90.0"
-  resolved "https://registry.yarnpkg.com/svix/-/svix-1.90.0.tgz#49c3a310745b05a26d322f17c0207d0c6da88dc6"
-  integrity sha512-ljkZuyy2+IBEoESkIpn8sLM+sxJHQcPxlZFxU+nVDhltNfUMisMBzWX/UR8SjEnzoI28ZjCzMbmYAPwSTucoMw==
+svix@1.92.2:
+  version "1.92.2"
+  resolved "https://registry.yarnpkg.com/svix/-/svix-1.92.2.tgz#2982904b032e24347b701cab3d5219ea94d9e49c"
+  integrity sha512-ZmuA3UVvlnF9EgxlzmPtF7CKjQb64Z6OFlyfdDfU0sdcC7dJa+3aOYX5B9mA+RS6ch1AxBa4UP/l6KmqfGtWBQ==
   dependencies:
     standardwebhooks "1.0.0"
-    uuid "^10.0.0"
 
 symbol-tree@^3.2.4:
   version "3.2.4"
@@ -9947,11 +9934,6 @@ utila@~0.4:
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/utila/-/utila-0.4.0.tgz#8a16a05d445657a3aea5eecc5b12a4fa5379772c"
   integrity sha512-Z0DbgELS9/L/75wZbro8xAnT50pBVFQZ+hUEueGDU5FN51YSCYM+jdxsfCiHjwNP/4LCDD0i/graKpeBnOXKRA==
-
-uuid@^10.0.0:
-  version "10.0.0"
-  resolved "https://registry.yarnpkg.com/uuid/-/uuid-10.0.0.tgz#5a95aa454e6e002725c79055fd42aaba30ca6294"
-  integrity sha512-8XkAphELsDnEGrDxUOHB3RGvXz6TeuYSGEZBOjtTtPm2lwhGBjLgOzLHB63IUWfBpNucQjND6d3AOudO+H3RWQ==
 
 uuid@^14.0.0:
   version "14.0.0"
