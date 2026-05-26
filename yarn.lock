@@ -2713,10 +2713,10 @@
   resolved "https://registry.yarnpkg.com/@stablelib/base64/-/base64-1.0.1.tgz#bdfc1c6d3a62d7a3b7bbc65b6cce1bb4561641be"
   integrity sha512-1bnPQqSxSuc3Ii6MhBysoWCg58j97aUjuCSZrGSmDxNqtytIi0k8utUenAwTZN4V5mXXYGsVUI9zeBqy+jBOSQ==
 
-"@storybook/addon-a11y@^10.4.0":
-  version "10.4.0"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-a11y/-/addon-a11y-10.4.0.tgz#f53aa81b50fdfa4c1ce87f0da44354f4b34c98b9"
-  integrity sha512-N1QRmh+PMe5O81KDf8oPDv/csdLAmDCRCYLByukqdUXpTNlcULHDFUJNXl00/rFpbt7PbOZqzRzs72JJt6nWPA==
+"@storybook/addon-a11y@^10.4.1":
+  version "10.4.1"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-a11y/-/addon-a11y-10.4.1.tgz#b27a9406c62d2b9f0cf667483ed7b91a28fd3b70"
+  integrity sha512-MGft/IXjJ20a9KbaSVG9bHTAAoanbucKrgEiJJRNqpim8DsXA01+XTdSk17LmiOCB203Rrq9mWgdQ6+79cc8iA==
   dependencies:
     "@storybook/global" "^5.0.0"
     axe-core "^4.2.0"
