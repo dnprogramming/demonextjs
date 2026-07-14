@@ -2843,10 +2843,10 @@
   resolved "https://registry.yarnpkg.com/@storybook/addon-onboarding/-/addon-onboarding-10.4.6.tgz#574e03e44f476e0b01870c1766bca6a3a8a808ed"
   integrity sha512-BzTu5LW5Ygwv0BbmQM0QohGS5Uoa8GjSxPcZFCQ1iQfizUukKnd72UIsPDZBKjVytO0DbZ3YoM1Ww5+KL6ZXEg==
 
-"@storybook/addon-vitest@^10.4.6":
-  version "10.4.6"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-vitest/-/addon-vitest-10.4.6.tgz#25a78d0cb833d2d9a6363a242ee3dc0f5d39d7ed"
-  integrity sha512-VvskHge0GZy86LG6kcY5Ww34z8rDV8JBxqSdUpcJVsWfIvyX6MfAbqI76LlereSyBIJGZJZsqaLwRXsQoVY+0Q==
+"@storybook/addon-vitest@^10.5.0":
+  version "10.5.0"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-vitest/-/addon-vitest-10.5.0.tgz#cd86e9d207e408c62fd9880be1666cfe0f65d573"
+  integrity sha512-o/H+ii8o7bu4r1M4pgyFt+DjVaIIccSeaAikpspNHKkKdiJ2GXfkgNwtib8Jru28HaBRfcP5u+m0QE3KBYIQkw==
   dependencies:
     "@storybook/global" "^5.0.0"
     "@storybook/icons" "^2.0.2"
