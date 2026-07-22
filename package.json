@@ -27,7 +27,7 @@
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
     "react-google-recaptcha-v3": "^1.11.0",
-    "resend": "^6.17.2"
+    "resend": "^6.18.0"
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^5",
