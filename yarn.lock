@@ -9062,10 +9062,10 @@ require-from-string@^2.0.2:
   resolved "https://registry.npmjs.org/require-from-string/-/require-from-string-2.0.2.tgz"
   integrity sha512-Xf0nWe6RseziFMu+Ap9biiUbmplq6S9/p+7w7YXP/JBHhrUDDUhwa+vANyubuqfZWTveU//DYVGsDG7RKL/vEw==
 
-resend@^6.18.1:
-  version "6.18.1"
-  resolved "https://registry.yarnpkg.com/resend/-/resend-6.18.1.tgz#3277e72925b289f49f389c511bbba00125162dd7"
-  integrity sha512-XN8XIaDdKF+ziSQ3K23ndUcyhP7U3ze2gky6SPgYkuAOq54mH4Wdhwm7QylEQ3zlz0NzdX7/l1AgmJUZbdPI/Q==
+resend@^6.19.0:
+  version "6.19.0"
+  resolved "https://registry.yarnpkg.com/resend/-/resend-6.19.0.tgz#8328cdc818a0cd7f1230064a8815a237d321abe0"
+  integrity sha512-JnEdYnd9WyBDIzunsEZtUF8n3cBKM9SlmySaos/7wwi4sEXKG1Zz4M64VFAyk+278erX01Fq2wHQ3p7OIdPriA==
   dependencies:
     postal-mime "2.7.5"
     standardwebhooks "1.0.0"
