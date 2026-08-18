@@ -2848,15 +2848,15 @@
     "@storybook/global" "^5.0.0"
     axe-core "^4.2.0"
 
-"@storybook/addon-docs@^10.5.7":
-  version "10.5.7"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-docs/-/addon-docs-10.5.7.tgz#6d599c94fc871c248ce06a5c081f57655c83f40a"
-  integrity sha512-KNARJfjICaizinsR3INMEiipZm1ObYo+xw+E26gteu50Bcy2dIZUtk5uHY5XdtardU3AXX6yRXoBZ2HCY3lbHA==
+"@storybook/addon-docs@^10.5.8":
+  version "10.5.8"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-docs/-/addon-docs-10.5.8.tgz#767c10c7a4cc1b625b93f869b2a2b09fc8514f2e"
+  integrity sha512-NlHiMKW/UvW/uL8HXFDCEVwoH3qZeGYZ/qlWax4d7H471b/T54MBq2KcB4ZrdA785FfIH3numAJdBb5jwn00Mg==
   dependencies:
     "@mdx-js/react" "^3.0.0"
-    "@storybook/csf-plugin" "10.5.7"
+    "@storybook/csf-plugin" "10.5.8"
     "@storybook/icons" "^2.0.2"
-    "@storybook/react-dom-shim" "10.5.7"
+    "@storybook/react-dom-shim" "10.5.8"
     react "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0"
     react-dom "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0"
     ts-dedent "^2.0.0"
@@ -2910,13 +2910,6 @@
   integrity sha512-0dtDw/FNPREoeCHX2RgZz0OecxaAGol1R7bCobFevArxyFIPJisTfjDMUFHKr+3B7BilTd3vnatl7Nlvgs0EiA==
   dependencies:
     ts-dedent "^2.0.0"
-
-"@storybook/csf-plugin@10.5.7":
-  version "10.5.7"
-  resolved "https://registry.yarnpkg.com/@storybook/csf-plugin/-/csf-plugin-10.5.7.tgz#bc73f164d1b5f8e2931b2774f4b389a06453cf6e"
-  integrity sha512-IaX8FlM0H36HNFhJ2+4L9bCldqfvHGqcLg841SJNyK/DhfMlM7JsvY/GDH2ZFuWrUf8FSOx96GRRnHq6XfRKag==
-  dependencies:
-    unplugin "^2.3.5"
 
 "@storybook/csf-plugin@10.5.8":
   version "10.5.8"
