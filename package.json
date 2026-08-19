@@ -61,7 +61,7 @@
     "playwright": "^1.62.1",
     "storybook": "^10.5.8",
     "stylelint": "^17.14.1",
-    "stylelint-config-standard": "^39.0.1",
+    "stylelint-config-standard": "^40.0.0",
     "ts-jest": "^29.4.12",
     "ts-node": "^10.9.2",
     "typescript": "^6",
