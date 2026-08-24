@@ -2874,15 +2874,15 @@
     "@storybook/global" "^5.0.0"
     axe-core "^4.2.0"
 
-"@storybook/addon-docs@^10.5.8":
-  version "10.5.8"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-docs/-/addon-docs-10.5.8.tgz#767c10c7a4cc1b625b93f869b2a2b09fc8514f2e"
-  integrity sha512-NlHiMKW/UvW/uL8HXFDCEVwoH3qZeGYZ/qlWax4d7H471b/T54MBq2KcB4ZrdA785FfIH3numAJdBb5jwn00Mg==
+"@storybook/addon-docs@^10.5.10":
+  version "10.5.10"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-docs/-/addon-docs-10.5.10.tgz#c65d1d4a6d1e2de50f0decaf82ea57583f220b30"
+  integrity sha512-06JoK3/a7FWI/6GzuidJP9iHp1/Vejboe6lzS1jW+d8ItpecriBt+oXh1VNmUM7i7PjI6pZnet+j51QnLyeOoQ==
   dependencies:
     "@mdx-js/react" "^3.0.0"
-    "@storybook/csf-plugin" "10.5.8"
+    "@storybook/csf-plugin" "10.5.10"
     "@storybook/icons" "^2.0.2"
-    "@storybook/react-dom-shim" "10.5.8"
+    "@storybook/react-dom-shim" "10.5.10"
     react "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0"
     react-dom "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0"
     ts-dedent "^2.0.0"
@@ -2936,6 +2936,13 @@
   integrity sha512-HccINB0UbTtnyJtKpaX+C35BRTSnAwnreIMwwI+LpeUd4x9mQg0G9orB7lfBBZwd5LQf8YhM2Vkjiawzo41GLg==
   dependencies:
     ts-dedent "^2.0.0"
+
+"@storybook/csf-plugin@10.5.10":
+  version "10.5.10"
+  resolved "https://registry.yarnpkg.com/@storybook/csf-plugin/-/csf-plugin-10.5.10.tgz#c65da1cdfe0a11795a14c518e9f8f828b8d54b3b"
+  integrity sha512-TaCLBrqVEr767+w58QDotDUiCTuE5cyRJuRcDlsKQyUIyGBv+lYD3lu8wBiVCYxgIjB/gu9HmqiC+0yx1rHzaw==
+  dependencies:
+    unplugin "^2.3.5"
 
 "@storybook/csf-plugin@10.5.8":
   version "10.5.8"
@@ -3031,6 +3038,11 @@
     micromatch "^4.0.2"
     react-docgen-typescript "^2.2.2"
     tslib "^2.0.0"
+
+"@storybook/react-dom-shim@10.5.10":
+  version "10.5.10"
+  resolved "https://registry.yarnpkg.com/@storybook/react-dom-shim/-/react-dom-shim-10.5.10.tgz#8ddcad879d8804a9bbc09a5d0ea10f8356f01ed6"
+  integrity sha512-rbu62ILo/VE3iXKmu+kWXFpD1H1Lwi0f19q/x7JnDsD2dxKS9w5znLEqPIq2qxpzi/wjjIb2iUP1cRG1d/9W5A==
 
 "@storybook/react-dom-shim@10.5.8":
   version "10.5.8"
