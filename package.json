@@ -33,7 +33,7 @@
     "@chromatic-com/storybook": "^5",
     "@eslint/eslintrc": "^3",
     "@jest/globals": "^30.5.1",
-    "@playwright/test": "^1.62.1",
+    "@playwright/test": "^1.63.0",
     "@storybook/addon-a11y": "^10.5.10",
     "@storybook/addon-docs": "^10.5.10",
     "@storybook/addon-onboarding": "^10.5.10",
