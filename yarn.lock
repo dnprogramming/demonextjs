@@ -2952,10 +2952,10 @@
     ts-dedent "^2.0.0"
     unplugin "^2.3.5"
 
-"@storybook/addon-onboarding@^10.5.10":
-  version "10.5.10"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-onboarding/-/addon-onboarding-10.5.10.tgz#699d105b36e3260376cb5d85df972bf800f76041"
-  integrity sha512-Qm1JyjM1wOabeZJykSuyT8mSyZE0/WdjT5wLjOnelE31nCWCh4DsBOgj8A1QDRt+3Hijq9/AW00olowJtf+eYA==
+"@storybook/addon-onboarding@^10.6.0":
+  version "10.6.0"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-onboarding/-/addon-onboarding-10.6.0.tgz#5d2328eea8255920a3d1602ef88a291a2f6c904b"
+  integrity sha512-zwe9lgCsq4ko/37CVgM9mZvaVV6WSO0k1IDTURof9B1CgHWzQ2Xn+5CYRVhbHie3mQ9bO1pcLI+ASdpdnOtSiQ==
 
 "@storybook/addon-vitest@^10.6.0":
   version "10.6.0"
